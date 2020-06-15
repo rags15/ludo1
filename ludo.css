@@ -1,0 +1,188 @@
+
+
+body{
+
+			background-image: url(0001.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	
+		
+        
+	}
+.grid-container {
+	opacity:0.7;
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px;
+ grid-template-rows:    70px 70px 70px 70px 70px 70px 70px 70px;
+  width:1000px;
+
+height:600px;
+
+margin-top:30px;
+position:fixed;
+left:100px;
+  justify-content: center;
+
+}
+
+.grid-container div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+	border-radius:25px;
+padding:15px;	
+  font-size: 30px;
+ border:solid;
+ 
+}
+.item64 {
+  grid-area: 2 / 2 / 8 / 8;
+}
+#roll
+{
+margin-top:10px;
+width:100px;
+height:50px;
+background-color:black;
+color:white;
+font-size:80%;
+
+}
+
+#disp
+{
+border:solid;
+border-radius:0px;
+margin-top:15px;
+width:50px;
+height:15px;
+border:none;
+background-color: #ffccff;
+margin-left:37%;
+}
+
+#ci
+{
+background-color:#001a4d;
+ height:20px;
+border-radius:10px; 
+width:20px;
+}
+
+#co
+{
+background-color:#001a4d;
+ height:20px;
+border-radius:10px; 
+width:20px;
+}
+
+#hi
+{
+background-color:#660000;
+ height:20px;
+border-radius:10px; 
+width:20px;
+}
+
+#yo
+{
+background-color: #660000;
+ height:20px;
+border-radius:10px; 
+width:20px;
+}
+
+#contB
+{height:100px;
+width:100px;
+border:solid;
+position:absolute;
+right:50px;
+bottom:40px;
+display:inline-block;
+
+}
+
+
+#contR
+{height:100px;
+width:100px;
+border:solid;
+position:absolute;
+left:50px;
+
+
+}
+
+#endR
+{
+background-color: #ffe6e6;
+padding:0;
+border-radius:0px;
+margin-left:20px;
+width:200px;
+height:50px;
+border:solid;
+}
+
+
+#endB
+{
+padding:0;
+margin-left:170px;
+border-radius:0px;
+width:200px;
+margin-top:10px;
+height:50px;
+border:solid;
+background-color:#ccddff;
+}
+
+#turn
+{
+width:200px;
+height:50px;
+margin-top:10px;
+border-radius:0px;
+border:none;
+background-color: #ffccff;
+margin-left:25%;
+padding:0px;
+
+}
+
+#btn
+{
+opacity:0.8;
+width:200px;
+height:20px;
+padding-top:0px;
+margin-top:10px;
+margin-left:20%;
+border:none;
+}
+
+#btn button
+{
+border-radius:10px;
+background-color:black;
+color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
